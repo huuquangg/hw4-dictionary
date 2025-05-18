@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/wordInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="put your word" />
+
+    <Button
+        android:id="@+id/lookupButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lookup" />
+
+    <TextView
+        android:id="@+id/definitionView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:paddingTop="10dp" />
+
+    <TextView
+        android:id="@+id/suggestionsView"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:paddingTop="10dp"
+        android:textSize="14sp" />
+</LinearLayout>
